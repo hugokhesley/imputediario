@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245, 248, 250);
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+#mensagemInput {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#btnProcessar {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4c7aaf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#tabelaPrevisoes {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+#tabelaPrevisoes th, #tabelaPrevisoes td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+#tabelaPrevisoes th {
+    background-color: #1d2f6b;
+    color: white;
+}
+
+#tabelaPrevisoes tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#reiniciarTabela {
+    margin-top: 10px;
+    padding: 8px;
+    cursor: pointer;
+    width: 100%;
+    background-color: #4c7aaf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+#reiniciarTabela:hover, #btnProcessar:hover {
+    background-color: #0957bd;
+}
+
+
+
+body {
+    font-family:  'Roboto', sans-serif;
+}
+
+
+
+
